@@ -1,7 +1,7 @@
 "use strict";
 
-function addClickHandlerToButton() {
-  $('main').on('click', 'button', function(event) {
+function handleClickButton() {
+  $('main').on('click', '#dogbutton', function(event) {
     const setting = {
       url:"https://dog.ceo/api/breeds/image/random", 
       type: "GET",
@@ -16,6 +16,8 @@ function addClickHandlerToButton() {
   });
 }
 
+
+
 function success(data) {
   renderImage(data.message);
 }
@@ -23,6 +25,8 @@ function success(data) {
 function failure(error) {
   console.error(error);
 }
+
+
 
 function generateImage(image) {
   return `<img src="${image}" alt="dog">`;
@@ -32,5 +36,8 @@ function renderImage(image) {
   $('main').append(generateImage(image));
 }
 
+function initializeApp() {
+    handleClickButton();
+}
 
-$(addClickHandlerToButton);   
+$(initializeApp);
