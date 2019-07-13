@@ -6,7 +6,7 @@ function handleClickButton() {
       url:"https://dog.ceo/api/breeds/image/random", 
       type: "GET",
       dataType: "json",
-      success,
+      success: success,
       error: failure,
     }
     $.ajax(setting)

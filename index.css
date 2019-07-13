@@ -1,3 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;   
+}
+
