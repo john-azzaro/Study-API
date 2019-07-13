@@ -20,7 +20,7 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 | **Features:**                            | **Feature Notes:**                             |
 | ---------------------------------------- | ----------------------------------------------|
 |  AJAX implementation                     | uses .ajax method to retrieve and display data from web API      |                                      
-| getJson implementation                   | (TBA) uses .ajax method to retrieve and display data from web API   | 
+| getJson implementation                   | (TBA) uses .getJson method to retrieve and display data from web API   | 
 
 
 <br>
