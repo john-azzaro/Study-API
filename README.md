@@ -4,7 +4,7 @@ See it Live: https://john-azzaro.github.io/Study-API/
 <br>
 
 ## What is API Study?
-API study is an examination of how to retrieve and display data from web API's using either AJAX (Asynchronous JavaScritp and XML) or getJson (i.e. a short-cut version of AJAX but does not give you as much control as AJAX method).  
+API study is an examination of how to retrieve and display data from web API's using either AJAX (Asynchronous JavaScritp and XML) or getJson (i.e. a short-cut version of AJAX but does not give you as much control as AJAX method) using jQuery.  
 
 <br>
 
