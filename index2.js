@@ -3,6 +3,7 @@
 // STEP 4: On click, call dog API:
 // In this function, we have a "settings" object as an argument.
 //      Within the settings object, we have the:
+//
 //          url      = The URL endpoint for the API.
 //          type     = The request method, which in this case is "GET".
 //          dataType = Data type of response, which in this case is JavaScript Object Notation (JSON).
