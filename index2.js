@@ -1,6 +1,6 @@
 "use strict";
 
-// STEP 4: On click, call dog API...
+// STEP 4: On click, call dog API:
 // In this function, we have a "settings" object as an argument.
 //      Within the settings object, we have the:
 //          url      = The URL endpoint for the API.
@@ -17,7 +17,7 @@ function handleClickButton() {
       url:"https://dog.ceo/api/breeds/image/random", 
       type: "GET",
       dataType: "json",
-      success,
+      success: success,
       error: failure,
     }
     // call dog api
